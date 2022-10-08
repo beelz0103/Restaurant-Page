@@ -17,12 +17,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("./wallpaperflare.com_wallpaper.jpg");
+  background-image: url("kingpiece.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  
+  background-size: cover;  
 }
 
 #content {  
@@ -67,7 +66,7 @@ body {
   font-size: 1.25rem;
 }
 
-#about {
+#about, #menu, #home {
   margin-bottom: 20px;
   font-size: 3rem;
 }
