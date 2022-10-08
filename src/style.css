@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./fonts/momstypewriter.woff2') format('woff2'),
+  url('./fonts/momstypewriter.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ngnl';
+  src: url('./fonts/ngnl_by_japanyoshi.woff2') format('woff2'),
+  url('./fonts/ngnl_by_japanyoshi.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./wallpaperflare.com_wallpaper.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#content {  
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'MyFont';
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  
+  font-size: 1.5rem;
+}
+
+.header {
+  font-family: 'ngnl';
+  font-size: 4rem;
+  text-align: center;
+  height: 60px;
+  padding: 10px;
+  justify-self: center; 
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  font-family: 'ngnl';
+  justify-content: space-between;  
+  font-size: 2.5rem;
+  height: 50px;
+  background-color: crimson;
+  padding: 0 400px;
+  color: rgb(196, 179, 179);
+  align-items: center;
+  cursor: pointer;
+}
+
+.content { 
+  margin-top: 20px;    
+  text-align: center;
+  padding: 0 200px; 
+  flex: 1;
+  font-size: 1.25rem;
+}
+
+#about {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
