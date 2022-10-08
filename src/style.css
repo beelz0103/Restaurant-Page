@@ -61,12 +61,19 @@ body {
 .content { 
   margin-top: 20px;    
   text-align: center;
-  padding: 0 200px; 
   flex: 1;
   font-size: 1.25rem;
 }
 
-#about, #menu, #home {
+#about, #menu, #paragraphtitle {
   margin-bottom: 20px;
   font-size: 3rem;
 }
+
+#paragraph {
+  margin-bottom: 20px;
+}
+
+
+
+
